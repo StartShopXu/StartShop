@@ -217,4 +217,6 @@ Page({
         util.showBusy('信道连接中...')
         this.setData({ tunnelStatus: 'closed' })
     }
+
+    
 })

@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<view class="container" >
     <!-- 用户登录测试 -->
     <view class="userinfo" bindtap="login">
         <image
@@ -37,3 +37,12 @@
         </navigator>
     </view>
 </view>
+
+<!-- <view class="mainMenu">
+  <view class = "menuTab" id='mainPageTab'>首页</view>
+  <view class = "menuTab" id='classifyPageTab'>分类</view>
+  <view class = "menuTab" id='activePageTab'>活动</view>
+  <view class = "menuTab" id='userInfoPageTab'>我的</view>
+</view> -->
+  
+

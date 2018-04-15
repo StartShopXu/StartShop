@@ -1,13 +1,38 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/addCgi/addCgi"
+    "pages/addCgi/addCgi",
+    "pages/activity/activities",
+    "pages/classify/classifies",
+    "pages/userInfo/userInfo"
   ],
-  "window":{
-    "backgroundColor":"#F6F6F6",
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "许新的商店",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "green",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/activity/activities",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/classify/classifies",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/userInfo/userInfo",
+        "text": "我的"
+      }
+    ]
   }
 }
